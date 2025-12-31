@@ -60,7 +60,6 @@ def main():
 
         # limit the framerate to 60 FPS
         dt = clock.tick(60) / 1000
-Shot.containers = (shots, drawable, updatable)
 
 
 if __name__ == "__main__":
