@@ -7,11 +7,12 @@ dependencies = [
     "pygame>=2.6.1",
 ]
 
+[project.scripts]
+pyastro = "main:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv]
-
-[tool.uv.scripts]
-game = "python main.py"
+package = false
